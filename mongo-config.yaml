@@ -4,4 +4,4 @@ metadata:
   name: mongo-config
   namespace: default
 data:
-  mongo=url: #mongo db url here
+mongo-url : mongo-service
