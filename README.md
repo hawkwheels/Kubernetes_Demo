@@ -2,7 +2,7 @@
 Code to deploy a mongo and mongo-express docker container in a minikube environment
 
 ## Note:
-1. In the secret.yaml we used 'mongouser' and 'mongopassword' as the username and password for the mongo dabase, please change as per your wish before deplyment. 
+In the secret.yaml file I used 'mongouser' and 'mongopassword' as the username and password for the mongo dabase, please change as per your wish before deplyment. 
 
 ### To apply and build the infra as per config
 `Kubectl apply -f <yaml file>`
